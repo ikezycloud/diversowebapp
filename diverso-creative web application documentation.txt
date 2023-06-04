@@ -1,0 +1,36 @@
+diverso-creative web application
+
+First create a folder for the website.
+cd into the folder and open vscode
+open terminal in vs code and install django "pip install django"
+upgrade pip if neccessary "python.exe -m pip install --upgrade pip"
+
+To start the django project
+in the terminal type "django-admin startproject diversoweb ."
+
+next in the terminal type "python manage.py runserver"
+
+
+To start an app within the django project(An app to manage a specific functionality on the website)
+type in the terminal "python manage.py startapp products"
+
+Create your first view
+
+
+For the rest of the documentation, watch the youtube link here
+https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=18329s&ab_channel=ProgrammingwithMosh 
+
+
+1. create views in apps (first create an app e.g products)
+2. create urls for each view
+3. map each view/page to the main url. (you only need to do this once)
+4. create models for database.
+5. migrate models to database.
+6. create admin super user.
+7. register your models with the admin of the product class.
+8. Create products on website
+9. customise product table (Customizing admin)
+10. Add Offer as well to the admin and create an offer.
+11. Use templates to display list of products from database.
+12. Add Bootstraps fpr full and better display. (getbootstrap.com)
+13. Render Bootstrap cards

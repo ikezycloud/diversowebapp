@@ -1,0 +1,11 @@
+version: "3"
+services:
+  diversowebapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: diversowebapp
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/diverso-app
