@@ -1,0 +1,41 @@
+Push containers to docker hub
+
+1. docker tag <docker image> <DockerHubUsername>/container name:latest
+
+2. docker login
+
+3. docker push <DockerHubUsername>/container name:latest
+
+4. cest finis.
+
+
+git init
+git add .
+git commit -m "VM commit"
+git remote add origin https://github.com/ikezycloud/diversostockapp.git
+git branch -M main
+git push -u origin main
+
+git PAT token: expiring in September 2023: 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
+
+
+To add user on ubuntu
+sudo su -
+adduser <username>
+passwd <password>
+
+To grant administrative privileges
+usermod -aG sudo <username>
+
+To switch to a new user
+su - <username>
+
+To be able to push a repo from a VM
+First, set up the global configurations
+git config --global user.email "ikeoluwakolawole@gmail.com"
+git config --global user.name "ikezycloud"
+
+To make the VM automatically store yout PAT
+git config --global credential.helper store
+
+to push code, paste yout PAT(personal access token) as password

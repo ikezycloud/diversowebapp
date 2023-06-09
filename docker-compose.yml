@@ -6,6 +6,6 @@ services:
       dockerfile: Dockerfile
     container_name: diversowebapp
     ports:
-      - "8000:8000"
+      - "8001:8001"
     volumes:
       - .:/diverso-app
